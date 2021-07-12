@@ -1,7 +1,7 @@
 import React from "react";
 import './Header.css';
 import facebookLogo from '../../images/f_logo_RGB-Blue_58.png'
-import flashingThunderLogo from '../../images/logo.jpg'
+import flashingThunderLogo from '../../images/long-logo.png'
 
 
 const Header = () => {
@@ -18,6 +18,7 @@ const Header = () => {
                             <a href="/about" className="navbar-item">About</a>
                             <a href="/products" className="navbar-item">Products</a>
                             <a href="/shop" className="navbar-item">Thunder Wear</a>
+                            <a href="/locations" className="navbar-item">Locations</a>
                             <a href="/contact" className="navbar-item">Contact</a>
                         </div>
                     </div>

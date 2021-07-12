@@ -1,3 +1,13 @@
+.footer {
+    margin-top: 2%;
+/* margin-bottom: 2%;
+margin-left: 1%;
+margin-right: 1%;
+display: flex;
+flex: 1;
+flex-direction: row; */
+}
+
 .footer-link-divider {
     color: #e5e5e5;
 }

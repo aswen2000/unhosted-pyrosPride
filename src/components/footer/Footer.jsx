@@ -3,7 +3,7 @@ import './Footer.css';
 
 const Footer = () => {
     return (
-        <div>
+        <div className="footer">
             <div>
                 <a href="/" className="footer-link">Home</a>
                 <span  className="footer-link-divider"> | </span>
@@ -15,6 +15,9 @@ const Footer = () => {
                 <span  className="footer-link-divider"> | </span>
 
                 <a href="/shop" className="footer-link">Thunder Wear</a>
+                <span  className="footer-link-divider"> | </span>
+
+                <a href="/locations" className="footer-link">Locations</a>
                 <span  className="footer-link-divider"> | </span>
                 
                 <a href="/contact" className="footer-link">Contact</a>
