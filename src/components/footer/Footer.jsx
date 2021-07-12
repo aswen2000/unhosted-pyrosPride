@@ -7,12 +7,16 @@ const Footer = () => {
             <div>
                 <a href="/" className="footer-link">Home</a>
                 <span  className="footer-link-divider"> | </span>
+
                 <a href="/about" className="footer-link">About</a>
                 <span  className="footer-link-divider"> | </span>
+
                 <a href="/products" className="footer-link">Products</a>
                 <span  className="footer-link-divider"> | </span>
+
                 <a href="/shop" className="footer-link">Thunder Wear</a>
                 <span  className="footer-link-divider"> | </span>
+                
                 <a href="/contact" className="footer-link">Contact</a>
             </div>
 
@@ -21,8 +25,6 @@ const Footer = () => {
             </div>
 
         </div>
-
-
 
     );
 }
