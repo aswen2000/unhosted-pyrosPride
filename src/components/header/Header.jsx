@@ -9,7 +9,9 @@ const Header = () => {
         <div className="header">
             <div className="header-top">
                 <div className="header-top__logo">
-                    <img className="header-logo" src={flashingThunderLogo} alt="Flashing Thunder Logo"></img>
+                    <a href="/">
+                        <img className="header-logo" src={flashingThunderLogo} alt="Flashing Thunder Logo"></img>
+                    </a>
                 </div>
                 <div className="header-top__navbar">
                     <div className="header-top__navigation">
@@ -34,7 +36,7 @@ const Header = () => {
                     <Mailto label="katie@flashingthunder.com" mailto="mailto:katie@flashingthunder.com" />
                 </div>
                 <div>
-                    <a href="https://www.facebook.com/iowaflashingthunder/">
+                    <a href="https://www.facebook.com/iowaflashingthunder/" target="_blank" rel="noreferrer">
                         <img className="facebook-logo" src={facebookLogo} alt="Facebook Logo"/>
                     </a>
                 </div>
@@ -44,35 +46,3 @@ const Header = () => {
 }
 
 export default Header;
-
-
-// render() {
-//     return (
-//       <div>
-//         <div>
-//           <Navbar>
-//             <Navbar.Brand as={Link} to="/" >React-Bootstrap</Navbar.Brand>
-//             <Navbar.Collapse>
-//               <Nav className="mr-auto">
-//                 <NavItem eventkey={1} href="/">
-//                   <Nav.Link as={Link} to="/" >Home</Nav.Link>
-//                 </NavItem>
-//               </Nav>
-//               <Form inline>
-//                 <FormControl type="text" placeholder="Search" className="mr-sm-2" />
-//                 <Button variant="outline-success">Search</Button>
-//               </Form>
-//             </Navbar.Collapse>
-//           </Navbar>
-//         </div>
-//         <div>
-//           <Switch>
-//             <Route exact path='/' component={Home} />
-//             <Route render={function () {
-//               return <p>Not found</p>
-//             }} />
-//           </Switch>
-//         </div>
-//       </div>
-//     );
-//   }
