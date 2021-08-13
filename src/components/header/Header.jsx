@@ -1,10 +1,7 @@
 import React from "react";
-import './Header.css';
 import facebookLogo from '../../images/f_logo_RGB-Blue_58.png'
 import flashingThunderLogo from '../../images/long-logo.png'
-import { BrowserRouter, Route, Redirect, Switch, Link } from "react-router-dom";
-import { Nav, NavItem, Navbar } from 'react-bootstrap'
-import Product from "../product/Product";
+import { Mailto } from '../index'
 
 
 const Header = () => {
@@ -34,7 +31,7 @@ const Header = () => {
                     641-732-5558
                 </div>
                 <div className="header-bottom__email">
-                    katie@flashingthunder.com
+                    <Mailto label="katie@flashingthunder.com" mailto="mailto:katie@flashingthunder.com" />
                 </div>
                 <div>
                     <a href="https://www.facebook.com/iowaflashingthunder/">
