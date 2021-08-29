@@ -6,7 +6,7 @@ import { BrowserRouter, Route, Redirect, Switch, Link, useHistory } from "react-
 import {Home, About, Contact, Locations, Products, ThunderWear} from "./pages/index";
 
 function App() {
-    const history = useHistory();
+    // const history = useHistory();
 
     return (
         <div className="App">
